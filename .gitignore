@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+jseye-*.dist-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
+
+# JSEye target scan outputs
+jseye_output_*/
+jseye/jseye_output_*/
+jseye_output_*
+**/jseye_output_*/
+*.html
+*.json
+*.xml
+*.txt
+*.yaml
+*.sh
+
+# Exclude specific export command lists/logs
+wordlist_*.txt
+ffuf_*.txt
+curl_*.sh
+burp_*.xml
+nuclei_*.yaml
+*.log
